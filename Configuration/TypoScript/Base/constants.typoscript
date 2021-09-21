@@ -1,0 +1,55 @@
+# --------------------------------
+# | T3v Blueprint Base Constants |
+# --------------------------------
+
+# === Plugin Constants ===
+
+plugin {
+  tx_t3vbluprint {
+    persistence {
+      # cat=plugin/tx_t3vbluprint/persistence; type=boolean; label=Enables the automatic cache clearing when changing data sets
+      enableAutomaticCacheClearing = 1
+
+      # cat=plugin/tx_t3vbluprint/persistence; type=int+; label=The PID of the default storage
+      storagePid = 0
+
+      # cat=plugin/tx_t3vbluprint/persistence; type=boolean; label=Updates the reference index to ensure data integrity
+      updateReferenceIndex = 1
+    }
+
+    resources {
+      # cat=plugin/tx_t3vbluprint/resources; type=string; label=The root path where the resources are stored
+      rootPath = EXT:t3v_blueprint/Resources/
+
+      private {
+        # cat=plugin/tx_t3vbluprint/resources/private; type=string; label=The root path where the private resources are stored
+        rootPath = EXT:t3v_blueprint/Resources/Private/
+      }
+
+      public {
+        # cat=plugin/tx_t3vbluprint/resources/public; type=string; label=The root path where the public resources are stored
+        rootPath = EXT:t3v_blueprint/Resources/Public/
+      }
+    }
+
+    settings {
+      extbase {
+        # cat=plugin/tx_t3vbluprint/settings/extbase; type=string; label=The controller extension name
+        controllerExtensionName = T3vBlueprint
+      }
+    }
+
+    view {
+      # cat=plugin/tx_t3vbluprint/view; type=string; label=The root path where the layouts are stored
+      layoutRootPath = EXT:t3v_blueprint/Resources/Private/Layouts/
+
+      # cat=plugin/tx_t3vbluprint/view; type=string; label=The root path where the templates are stored
+      templateRootPath = EXT:t3v_blueprint/Resources/Private/Templates/
+
+      # cat=plugin/tx_t3vbluprint/view; type=string; label=The root path where the partials are stored
+      partialRootPath = EXT:t3v_blueprint/Resources/Private/Partials/
+    }
+  }
+}
+
+# === T3v Generator ===
