@@ -7,6 +7,7 @@ Dependencies
 ------------
 
 * TYPO3 CMS 9.5 or greater
+* T3v Core extension
 
 Installation
 ------------
