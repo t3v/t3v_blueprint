@@ -8,6 +8,5 @@ Unreleased
 
 * Added `Functional` and `Unit` tests
 * Added common files
-* First release
 
 [Semantic Versioning]: http://semver.org "Semantic Versioning"
