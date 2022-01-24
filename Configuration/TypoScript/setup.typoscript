@@ -1,9 +1,15 @@
-# -----------------------
-# | T3v Blueprint Setup |
-# -----------------------
+/*
+  -----------------------
+  | T3v Blueprint Setup |
+  -----------------------
+*/
 
-# === Imports ===
+/*
+  === Imports ===
+*/
 
 @import './Base/setup.typoscript'
 
-# === T3v Generator ===
+/*
+  === T3v Generator ===
+*/

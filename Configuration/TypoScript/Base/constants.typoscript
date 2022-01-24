@@ -1,8 +1,12 @@
-# --------------------------------
-# | T3v Blueprint Base Constants |
-# --------------------------------
+/*
+  --------------------------------
+  | T3v Blueprint Base Constants |
+  --------------------------------
+*/
 
-# === Plugin Constants ===
+/*
+  === Plugin Constants ===
+*/
 
 plugin {
   tx_t3vblueprint {
@@ -52,4 +56,6 @@ plugin {
   }
 }
 
-# === T3v Generator ===
+/*
+  === T3v Generator ===
+*/

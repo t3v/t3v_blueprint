@@ -1,8 +1,12 @@
-# ----------------------------
-# | T3v Blueprint Base Setup |
-# ----------------------------
+/*
+  ----------------------------
+  | T3v Blueprint Base Setup |
+  ----------------------------
+*/
 
-# === Plugin Configuration ===
+/*
+  === Plugin Configuration ===
+*/
 
 plugin {
   tx_t3vblueprint {
@@ -61,4 +65,6 @@ plugin {
   }
 }
 
-# === T3v Generator ===
+/*
+  === T3v Generator ===
+*/
